@@ -210,16 +210,18 @@ body {
         font-size: 1.2rem;
     }
     .boton {
-        @include boton($secundario)
+        @include boton($principal)
     }
 }
 
 .footer {
-    border: 1px solid darken($gris, 10);
+    bottom: 0%;
+    background-color: $negro;
     margin-top: 1rem;
     padding-top: 2rem;
-
+    
     .contenedor-footer {
+        
         display: flex;
         flex-direction: column;
         @include telefono() {

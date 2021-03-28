@@ -175,7 +175,7 @@ body {
     margin: 0;
     font-size: 1.2rem; }
   .info .boton {
-    background-color: #fde9e0;
+    background-color: #360747;
     padding: .5rem 1rem;
     margin-top: 1rem;
     display: block;
@@ -184,7 +184,8 @@ body {
     text-decoration: none; }
 
 .footer {
-  border: 1px solid #d9d9d9;
+  bottom: 0%;
+  background-color: #000000;
   margin-top: 1rem;
   padding-top: 2rem; }
   .footer .contenedor-footer {
@@ -203,7 +204,7 @@ body {
     .menu {
       flex: 0 1 calc(30% - 1rem); } }
   .menu a {
-    color: #000000;
+    color: #ffffff;
     font-weight: 500;
     text-decoration: none;
     margin-bottom: .5rem; }
